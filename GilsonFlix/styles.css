@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+    } 
+header {
+    border-bottom: solid 2px rgb(42,122,228);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(240, 18, 18);
+}
+.chamada{
+    background: rgb(184,156,213);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center; 
+    color: rgb(239, 239, 243);
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.categoria-filmes{
+    display: flex;
+    overflow-x: auto;
+    gap: 2px;
+            
+  }
+.categoria{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    
+}
+.categoria-filmes img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-filmes img:hover {
+    opacity: 2.0;
+    border: 1px solid green;
+}
+.categoria h2{
+    color: rgb(240,18,18);
+}
+.livro img {
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    gap: 1px;
+}
+.livro h2{
+    color: rgb(240,18,18);
+    border: 2px solid ;
+}
